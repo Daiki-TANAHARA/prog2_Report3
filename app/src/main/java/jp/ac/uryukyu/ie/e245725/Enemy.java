@@ -14,6 +14,7 @@ public class Enemy {
     private int attack;
     private boolean dead;
 
+    //getterメソッド
     public String getName(){
         return this.name;
     }
@@ -28,6 +29,23 @@ public class Enemy {
 
     public boolean getDead(){
         return this.dead;
+    }
+
+    //setterメソッド
+    public void setName(){
+        this.name = name;
+    }
+
+    public void setHitpoint(){
+        this.hitPoint = hitPoint;
+    }
+
+    public void setAttack(){
+        this.attack = attack;
+    }
+
+    public void setDead(){
+        this.dead = dead;
     }
 
     /**
